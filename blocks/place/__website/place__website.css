@@ -1,0 +1,7 @@
+.place__website{
+    grid-area: links;
+    align-self: end;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    }

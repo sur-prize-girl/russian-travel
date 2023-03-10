@@ -1,0 +1,8 @@
+.place{
+    display: grid;
+    grid-template-areas: 
+    "title links"
+    "image description";
+    gap: 48px 40px;
+    padding: 0 0 80px;
+}
