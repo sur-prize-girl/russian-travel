@@ -10,7 +10,7 @@
 
 @media (max-width: 1279px) {
    .intro__block {
-      max-width: 928px;
+      max-width: calc(100% - 96px);
    }
 }
 
