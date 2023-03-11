@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-[Ссылка  на проект](https://github.com/sur-prize-girl/russian-travel)
+[https://github.com/sur-prize-girl/russian-travel](https://sur-prize-girl.github.io/russian-travel/index.html)
 
 **Цель проекта**
 
