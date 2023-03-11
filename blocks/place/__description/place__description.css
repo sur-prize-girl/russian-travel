@@ -2,3 +2,10 @@
     grid-area: description;
     align-self: top;
 }
+
+@media (max-width: 767px) {
+    .place__description{
+        width: calc(100% - 32px);
+        padding: 0 16px;
+}
+}

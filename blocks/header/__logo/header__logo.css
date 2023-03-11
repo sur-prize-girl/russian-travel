@@ -2,7 +2,14 @@
     background-image: url(../../../images/__logo.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top left;
     width: 176px;
     height: 52px;
+}
+
+@media (max-width: 767px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }

@@ -1,4 +1,12 @@
 .lead__figure{
-    padding:0;
+    padding: 0 48px;
     margin:0;
+    max-width: calc(100% - 96px);
+}
+
+@media (max-width: 1023px) {
+    .lead__figure {
+    max-width: 100%;
+    padding: 0;
+ }
 }

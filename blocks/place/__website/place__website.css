@@ -5,3 +5,11 @@
     margin:0;
     padding: 0;
     }
+
+    @media (max-width: 767px) {
+        .place__website{
+            width: calc(100% - 32px);
+            padding: 0 16px;
+    }
+    }
+    
