@@ -1,29 +1,31 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    padding: 28px 48px 56px;
+    padding: 28px 0 56px;
     margin: 0 auto;
     max-width: 1184px;
+    width: 100%;
     box-sizing: border-box;
+    object-position: center;
 }
 
-@media screen and (max-width: 1279px){
-    .header{
+@media screen and (max-width: 1279px) {
+    .header {
         padding-bottom: 48px;
     }
 }
 
 @media (max-width: 1023px) {
-    .header{
-      padding-left: 24px;
-      padding-right: 24px;
-  }
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
 
 @media (max-width: 767px) {
-    .header{
-    justify-content: space-between;
-    padding: 16px 16px 48px;
-}
+    .header {
+        justify-content: space-between;
+        padding: 16px 16px 48px;
+    }
 }

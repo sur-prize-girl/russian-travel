@@ -1,4 +1,4 @@
-.place__paragraph{
+.place__paragraph {
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -6,15 +6,13 @@
   line-height: 1.63;
 }
 
-.place__paragraph:first-child {
-  padding-bottom: 25px;
+.place__paragraph:nth-of-type(2) {
+  padding-top: 25px;
 }
 
-
 @media (max-width: 1023px) {
-  .place__paragraph{ 
+  .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
   }
 }
-

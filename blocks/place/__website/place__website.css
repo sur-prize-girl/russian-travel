@@ -1,15 +1,13 @@
-.place__website{
+.place__website {
     grid-area: links;
     align-self: end;
-    list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
-    }
+}
 
-    @media (max-width: 767px) {
-        .place__website{
-            width: calc(100% - 32px);
-            padding: 0 16px;
+@media (max-width: 767px) {
+    .place__website {
+        width: calc(100% - 32px);
+        padding: 0 16px;
     }
-    }
-    
+}
