@@ -8,6 +8,10 @@
     padding: 0 0 80px;
 }
 
+.place:last-child {
+    padding-bottom: 0;
+}
+
 @media (max-width: 1279px) {
     .place {
         column-gap: 32px;
@@ -29,9 +33,6 @@
             "image"
             "description";
         row-gap: 32px;
-        padding: 50px 0 0;
-    }
-    .place:first-of-type {
-        padding-top: 0px;
+        padding-bottom: 50px;
     }
 }
